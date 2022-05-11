@@ -1,0 +1,248 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 6077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/PC 04/Desktop/FoodRush
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57397
+Successfully changed project path to: C:/Users/PC 04/Desktop/FoodRush
+C:/Users/PC 04/Desktop/FoodRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 154.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC 04/Desktop/FoodRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) RX Vega 11 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3038 MB
+    Driver:   30.0.13014.8
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014420 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1251ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009549 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC 04\Desktop\FoodRush\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC 04\Desktop\FoodRush\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2396ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1766ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (739ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.4 KB). Loaded Objects now: 3687.
+Memory consumption went from 112.8 MB to 112.7 MB.
+Total: 6.744400 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.538500 ms MarkObjects: 5.455000 ms  DeleteObjects: 0.316800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1135597.528724 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/3.Materials/ground.mat
+  artifactKey: Guid(9f063afa425414e8ea56f18aac9997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/3.Materials/ground.mat using Guid(9f063afa425414e8ea56f18aac9997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7810ff7893489c81f04fe3d685a5b42') in 0.216436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/3.Materials/items_texture.png
+  artifactKey: Guid(3042aee1021bc4733a4ec111164ddd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/3.Materials/items_texture.png using Guid(3042aee1021bc4733a4ec111164ddd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511a963352009e045d4f5af199c34fee') in 0.043138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.329323 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/4.Models/floor_1.fbx
+  artifactKey: Guid(838c2d173f900481fa56a71f3fe7f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/4.Models/floor_1.fbx using Guid(838c2d173f900481fa56a71f3fe7f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3da53974b5918f8a311077a805c005') in 0.116650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/4.Models/wall_1.fbx
+  artifactKey: Guid(ce3c9b544254741f18bd99446fcc08b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/4.Models/wall_1.fbx using Guid(ce3c9b544254741f18bd99446fcc08b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b4e0f42e0439d5f167ba36cab82135') in 0.305803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.452325 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/floors
+  artifactKey: Guid(2a2dfa0a4cd16428183222939f27f386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/floors using Guid(2a2dfa0a4cd16428183222939f27f386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3e5613b404386bb08dd7e9db6f2063') in 0.013469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053861 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_1.prefab
+  artifactKey: Guid(ab0ca3fd2f73d4916bb291934d99856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_1.prefab using Guid(ab0ca3fd2f73d4916bb291934d99856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c67db9b6830662a97113aa345e662d') in 0.025247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.498011 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/bar_table.prefab
+  artifactKey: Guid(e413ad08bc08c4e999e800d4695f6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/bar_table.prefab using Guid(e413ad08bc08c4e999e800d4695f6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027cd9d30855ec98b8976c53633d3504') in 0.051787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/fridge.prefab
+  artifactKey: Guid(fc2fd77dfdf7b4fad9ae2f8470766b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/fridge.prefab using Guid(fc2fd77dfdf7b4fad9ae2f8470766b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ffe3cb5a7a34963917ad2b4959eb69') in 0.034037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/furniture.prefab
+  artifactKey: Guid(939acb25a987d4cd8b7f54c754182316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/furniture.prefab using Guid(939acb25a987d4cd8b7f54c754182316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26d4ce126b4db974bc6a86fac0c80b0') in 0.051804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/monitor.prefab
+  artifactKey: Guid(cdbef1beb6c7f4f48b4532fbd79f08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/monitor.prefab using Guid(cdbef1beb6c7f4f48b4532fbd79f08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856cd8d3b52472d2fcc5d7d3b68163bc') in 0.042077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/hood.prefab
+  artifactKey: Guid(ebcdbc32ab7854e84a4595a87a000376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/hood.prefab using Guid(ebcdbc32ab7854e84a4595a87a000376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6ff61d22bd4a58281c5a47eaa5690a') in 0.038010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/washbasin.prefab
+  artifactKey: Guid(5d3e6100cc8b848ddb892a9a44bd7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/washbasin.prefab using Guid(5d3e6100cc8b848ddb892a9a44bd7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49305afc51a3cbe2f70ef45751bd6af') in 0.034473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_2.prefab
+  artifactKey: Guid(017116cb4280b48eca9d618e6bb8a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_2.prefab using Guid(017116cb4280b48eca9d618e6bb8a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865f6519f09c2ce90198f860a8fce745') in 0.033302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_1.prefab
+  artifactKey: Guid(516587c299f6d4743ae00f19f7f91418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_1.prefab using Guid(516587c299f6d4743ae00f19f7f91418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9da56a8c047fa875a918792e579935') in 0.037218 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
